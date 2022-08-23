@@ -1,0 +1,35 @@
+.bg-wrap {
+  background: $main-bg-color;
+  overflow: hidden; // чтобы снаружи не было видно
+}
+
+.container {
+  position: relative;
+
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1280px;
+  min-width: $minW;
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  //min-height: 100vh;
+  //overflow: visible;
+
+  > main {
+    flex: 1 0 auto
+  }
+  > header,main,footer {
+    position: relative;;
+    z-index: 40; // выше фонов
+  }
+
+  font-size: $main-font-size;
+  font-weight: $main-font-weight;
+  font-family: $main-font-family;
+  color: $main-txt-color;
+
+
+}
+
+

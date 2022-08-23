@@ -1,0 +1,245 @@
+.main {
+  //padding: 0 var(--side-indent);
+  //margin: 0 auto;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+
+
+  margin-bottom: 1000px;
+
+
+
+}
+
+.section {
+
+  position: relative;
+  display: flex;
+
+
+
+  &:nth-child(odd) {
+    & > .section__img {
+      top: -50px;
+      right: 0;
+      @media (max-width: $mobile) {
+        right: -220px;
+      }
+    }
+  }
+
+  &:nth-child(even) {
+    & > .section__img {
+      top: -33px;
+      left: 0;
+      width: 100%;
+      max-width: 460px;
+      @media (max-width: $mobile) {
+        left: unset;
+        right: -180px;
+      }
+    }
+
+    justify-content: end;
+
+    @media (max-width: $mobile) {
+      justify-content: flex-start;
+    }
+
+    & > .section__info {
+      max-width: 700px;
+    }
+  }
+
+
+
+
+}
+
+.section__info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  //align-items: center;
+  align-items: stretch;
+  //gap: 60px;
+  @include adaptiveValue("gap", 60, 50, 1600, 320);
+  width: 100%;
+
+
+  @media (max-width: $mobile) {
+    //align-items: center;
+    //text-align: center;
+  }
+
+  //&--left {
+  //  max-width: 600px;
+  //  align-self: flex-end;
+  //}
+}
+
+
+.section__img {
+  position: absolute;
+
+}
+
+.section__img--harmony-pc {
+  display: block;
+  @media (max-width:$mobile) {
+    display: none;
+  }
+}
+
+.section__img--harmony-mb {
+  display: none;
+  @media (max-width:$mobile) {
+    display: block;
+  }
+}
+
+.section__img--mb-hidden {
+  @media (max-width: $on768) {
+    display: none;
+  }
+}
+
+.section__header {
+  display: flex;
+  flex-direction: column;
+  font-size: 80px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  font-weight: 400;
+  font-family: $secondary-font-family;
+  @include adaptiveValue("font-size", 80, 30, 1600, 320);
+
+  @media (max-width: $mobile) {
+    //align-items: center;
+    //text-align: center;
+  }
+}
+
+.section__text {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.section__price-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.section__price {
+
+  //font-size: 60px;
+  @include adaptiveValue("font-size", 60, 16, 1600, 320);
+}
+
+.section__btn {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  //padding: 35px 85px 24px;
+  color: #FFFFFF;
+  position: relative;
+  font-weight: 300;
+  //font-size: 25px;
+  line-height: 150%;
+  //padding: 15px 40px 15px;
+  @include adaptiveValue("font-size", 25, 16, 1600, 320);
+
+  @include adaptiveValue("padding-top", 35, 15, 1600, 320);
+  @include adaptiveValue("padding-bottom", 35, 15, 1600, 320);
+
+  @include adaptiveValue("padding-right", 85, 40, 1600, 320);
+  @include adaptiveValue("padding-left", 85, 40, 1600, 320);
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url('/src/img/btn.svg') 0 0 / contain no-repeat;
+
+
+  }
+}
+
+
+.section__header--hero {
+  font-size: 155px;
+  line-height: 80%;
+  letter-spacing: 2px;
+
+  @include adaptiveValue("font-size", 155, 49, 1600, 320);
+}
+
+.section__header--asterisk {
+  position: relative;
+  max-width: 720px; // уменьшить потом
+  @include adaptiveValue("max-width", 760, 280, 1600, 320);
+
+
+  &::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: calc(50% - 37.5px);
+    width: 75px;
+    height: 75px;
+    background: url('/src/img/asterisk.svg') 0 0 / contain no-repeat;
+
+    @media (max-width: 1000px) {
+      top: calc(50% - 20px);
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.section__img--asterisk {
+  // в мобилке она переходит в справа от надписи
+  // а может просто приклеить её background'ом
+  //position: absolute;
+  //right: 100px;
+  //top: 50%;
+}
+
+.section__text--hero {
+  max-width: 780px;
+}
+
+
+
+//==aboveFooter=============================================================
+
+section.section__totals {
+  justify-content: center;
+
+}
+
+.section__info--totals {
+  background: rgba(46, 28, 121, 0.1);
+  box-shadow: inset 0px -5px 30px rgba(243, 243, 243, 0.15), inset 0px 20px 60px rgba(243, 243, 243, 0.2);
+  //backdrop-filter: blur(30px);
+  border-radius: 80px;
+  @include adaptiveValue("border-radius", 80, 24, 1600, 320);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  @include adaptiveValue("padding", 120, 10, 1600, 320);
+}
+
+//=footer==========================================================

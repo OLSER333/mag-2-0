@@ -1,0 +1,38 @@
+$main-font-family: 'NeueMachina', sans-serif;
+//$side-margin: 20px;
+$main-font-size: 20px;
+$primary-line-height: 1.5;
+$main-font-weight: 200;
+$secondary-font-family: 'MiracleWorldPersonalUse', sans-serif;
+
+$main-bg-color: #050102;
+
+$main-txt-color: #F3F3F3;
+$secondary-txt-color: #7E7E82;
+
+$first-icon-color: #FF3E79;
+$first-icon-dark: #e0386d;
+
+
+$second-icon-color: #41F6D7;
+
+$maxW: 1400px; // 20 паддинги с обеих сторон
+$mobile: 1250.98px; // это когда переходит на бургер, просто так назвал
+//$mb: 900.98; // без пикселей
+$minW: 320.98px;
+$on768: 768.98px;
+$tr-time: 0.3s; // transition time
+
+// уменьшаю везде паддинг с 20 до 15px
+
+:root {
+  --side-indent: 20px;
+
+
+  //@media (max-width: $modal-to-mb) {
+  //  --side-indent: 15px;
+  //
+  //}
+}
+
+$header-to-mb:  950px

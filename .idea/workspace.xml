@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a03da778-da4c-40b9-ab32-8432d62f4586" name="Changes" comment="pc версия без foter и вацапа">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mag-2.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/MiracleWorldPersonalUse.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/NeueMachina-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/NeueMachina-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/NeueMachina-Ultralight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/Group 34153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/MiracleWorldPersonalUse-ZVYez.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/asterisk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/cemetery-spot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/egiliet-spot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/harmony-spot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/header-spot-left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/header-spot-right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/love-spell-spot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/spot-love-help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/stars-7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/other/mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/other/null.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/other/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/spot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/stars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DZgQqMdoGCfuzA0Xd5khLXCEo5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/olser/projects/mag-2.0/src/scss/other",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\olser\projects\mag-2.0\src\scss\other" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\olser\projects\mag-2.0\src\scss" />
+      <recent name="E:\olser\projects\mag-2.0\src\scss\other" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a03da778-da4c-40b9-ab32-8432d62f4586" name="Changes" comment="" />
+      <created>1660912007801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660912007801</updated>
+      <workItem from="1660912009098" duration="65216000" />
+      <workItem from="1661235699532" duration="26648000" />
+    </task>
+    <task id="LOCAL-00001" summary="header is ready">
+      <created>1660941449798</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660941449798</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="header is ready" />
+    <MESSAGE value="all init files" />
+    <MESSAGE value="pc версия без foter и вацапа" />
+    <option name="LAST_COMMIT_MESSAGE" value="pc версия без foter и вацапа" />
+  </component>
+</project>

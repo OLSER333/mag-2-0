@@ -1,6 +1,9 @@
 .header {
   display: flex;
   justify-content: center;
+  margin-bottom: 146px;
+  @include adaptiveValue("margin-bottom", 146, 75, 1600, 320);
+
 
 
 }
@@ -45,4 +48,8 @@
 
 .header__logo {
   grid-area: b;
+  img {
+    @include adaptiveValue("width", 130, 75, 1600, 320);
+  }
+
 }
