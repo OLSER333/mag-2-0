@@ -1,0 +1,32 @@
+.star {
+
+
+}
+
+
+
+
+
+.stars__left {
+  position: absolute;
+  pointer-events: none;
+  cursor: default;
+  left: -146px;
+  top: -114px;
+}
+
+.stars__right {
+  position: absolute;
+  pointer-events: none;
+  cursor: default;
+  right: -146px;
+  top: -114px;
+  //:nth-child(5) {
+  //  top: -320px;
+  //}
+}
+
+
+
+
+
