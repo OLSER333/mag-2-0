@@ -4,13 +4,8 @@
   max-width: 1240px;
   display: flex;
   flex-direction: column;
-  gap: 300px;
-
-
-  margin-bottom: 1000px;
-
-
-
+  //gap: 300px;
+  @include adaptiveValue("gap", 500, 300, 1600, 320);
 }
 
 .section {
@@ -19,13 +14,17 @@
   display: flex;
 
 
-
   &:nth-child(odd) {
     & > .section__img {
       top: -50px;
       right: 0;
       @media (max-width: $mobile) {
         right: -220px;
+      }
+      @media (max-width: $on768) {
+        right: -264px;
+        transform: scale(0.5);
+        top: -200px;
       }
     }
   }
@@ -40,6 +39,16 @@
         left: unset;
         right: -180px;
       }
+      @media (max-width: $on768) {
+        right: -150px;
+        transform: scale(0.66);
+        top: -100px;
+      }
+      @media (max-width: 360px) {
+        right: -122px;
+        transform: scale(0.7);
+        top: -64px;
+      }
     }
 
     justify-content: end;
@@ -49,11 +58,11 @@
     }
 
     & > .section__info {
-      max-width: 700px;
+      @media (min-width:1250.98px) {
+        max-width: 700px;
+      }
     }
   }
-
-
 
 
 }
@@ -88,14 +97,14 @@
 
 .section__img--harmony-pc {
   display: block;
-  @media (max-width:$mobile) {
+  @media (max-width: $mobile) {
     display: none;
   }
 }
 
 .section__img--harmony-mb {
   display: none;
-  @media (max-width:$mobile) {
+  @media (max-width: $mobile) {
     display: block;
   }
 }
@@ -126,7 +135,36 @@
   font-weight: 200;
   font-size: 20px;
   line-height: 140%;
+  max-width: 80%;
+@media (max-width:800px) {
+  max-width: 90%;
 }
+  @media (max-width:500px) {
+    max-width: 100%;
+  }
+}
+
+.section__text--bl-wedding {
+  display: flex;
+  flex-direction: column;
+  @include adaptiveValue("gap", 60, 20, 1600, 320);;
+
+}
+
+.section__text--bl-wedding li::marker {
+
+  color: red; /* Цвет маркера */
+  padding-right: 10px; /* Расстояние от маркера до текста */
+}
+
+.section__text--bl-wedding ul {
+  margin-left: 25px;
+  li {
+    list-style-type: disc;
+  }
+}
+
+
 
 .section__price-info {
   display: flex;
@@ -187,7 +225,7 @@
 .section__header--asterisk {
   position: relative;
   max-width: 720px; // уменьшить потом
-  @include adaptiveValue("max-width", 760, 280, 1600, 320);
+  @include adaptiveValue("max-width", 760, 260, 1600, 320);
 
 
   &::before {
@@ -215,10 +253,9 @@
   //top: 50%;
 }
 
-.section__text--hero {
-  max-width: 780px;
-}
-
+//.section__text--hero {
+//  max-width: 780px;
+//}
 
 
 //==aboveFooter=============================================================
@@ -239,7 +276,49 @@ section.section__totals {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  width: 100%;
   @include adaptiveValue("padding", 120, 10, 1600, 320);
+  @media (max-width:$on768) {
+    margin-top: -200px;
+  }
+
 }
+
+
+.section__whatsapp {
+  @media (max-width:$on768) {
+    margin-top: -200px;
+  }
+}
+
+
+.section__list--whatsapp {
+  display: flex;
+  flex-direction: column;
+  @include adaptiveValue("gap", 70, 20, 1600, 320);
+  @include adaptiveValue("margin-top", 100, 50, 1600, 320);
+  //li:last-of-type {
+  //  display: flex;
+  //  gap: 10px
+  //}
+}
+
+.section__btn--whatsapp {
+  border: 3px solid #FF1A40;
+  border-radius: 40px;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  padding: 15px 40px 15px 20px;
+  align-items: center;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 150%;
+
+  @media (max-width:$on768) {
+    transform: scale(0.8) translateX(-28px);
+  }
+}
+
 
 //=footer==========================================================

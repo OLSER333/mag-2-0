@@ -4,29 +4,64 @@
 }
 
 
-
-
-
 .stars__left {
   position: absolute;
-  pointer-events: none;
-  cursor: default;
-  left: -146px;
-  top: -114px;
+  //pointer-events: none;
+  //cursor: default;
+  left: -130px;
+  top: -265px;
+  @media (max-width:$on768) {
+    transform: scale(.75);
+  }
 }
 
 .stars__right {
   position: absolute;
-  pointer-events: none;
-  cursor: default;
+  //pointer-events: none;
+  //cursor: default;
   right: -146px;
   top: -114px;
   //:nth-child(5) {
   //  top: -320px;
   //}
+  @media (max-width:$on768) {
+    transform: scale(.85);
+  }
+}
+
+.stars__right--whatsapp {
+  position: absolute;
+  //pointer-events: none;
+  //cursor: default;
+  //right: -262px;
+
+  top: 350px;
+  @media (max-width:$on768) {
+    top: -45px;
+    transform: scale(.55);
+  }
+}
+
+.stars__right--love-spell {
+  @media (max-width: 1250px) {
+    display: none;
+    @media (max-width:$on768) {
+      display: unset;
+      right: -60px;
+      top: -347px;
+    }
+  }
 }
 
 
+.stars__right--cemetery {
+  @media (max-width: 1250px) {
+    display: none;
+  }
+}
 
-
-
+.stars__right--harmony {
+  @media (max-width: 1250px) {
+    display: none;
+  }
+}
