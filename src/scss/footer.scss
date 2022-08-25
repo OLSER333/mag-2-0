@@ -1,6 +1,5 @@
 .footer {
     @include adaptiveValue("padding", 60, 30, 1600, 320);
-  @include adaptiveValue("margin-top", 120, 70, 1600, 320);
   border-top: 1px solid #F3F3F3;
   display: flex;
   justify-content: center;

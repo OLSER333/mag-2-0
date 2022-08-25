@@ -320,5 +320,10 @@ section.section__totals {
   }
 }
 
+.section__info--whatsapp {
+  @include adaptiveValue("margin-bottom", 120, 70, 1600, 320);
+
+}
+
 
 //=footer==========================================================

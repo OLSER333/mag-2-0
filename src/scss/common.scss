@@ -1,4 +1,5 @@
 .bg-wrap {
+  position: relative;
   background: $main-bg-color;
   overflow: hidden; // чтобы снаружи не было видно
 }
@@ -33,3 +34,39 @@
 }
 
 
+.btn-fixed-whatsapp {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  width: 80px;
+  height: 80px;
+  background: url('/src/img/whatsapp-fixed.svg') 0 0 / contain no-repeat;
+  z-index: 100;
+  animation: floating 3s infinite ease-in-out;
+
+  @media (max-width: 800px) {
+    width: 60px;
+    height: 60px;
+  }
+
+  @media (max-width:500px) {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, -15px);
+  }
+
+  100% {
+    transform: translate(0, 0px);
+  }
+}
