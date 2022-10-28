@@ -1,4 +1,7 @@
-# Webpack Static Site Starter Kit
+# https://olser333.github.io/mag-2-0/ - готовая вёрстка
+
+
+## Webpack Static Site Starter Kit
 
 ## Требования к проекту
 - [Node 14.18.3](https://nodejs.org/download/release/v14.18.3/)
